@@ -11,7 +11,7 @@ xmlDoc = xmlhttp.responseXML;
 x = xmlDoc.getElementsByTagName("postagem");
 
 function teste(){
-    i=2;
+    for(i=x.length-1;i>=0;i--){
         document.write(
             "<tr>" +
                 "<td>"+ x[i].getAttribute("codigo") +"</td>" +
@@ -19,4 +19,5 @@ function teste(){
                 "<td>"+ x[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue +"</td>" +
                 "<td>"+ x[i].getElementsByTagName("corpo")[0].childNodes[0].nodeValue +"</td>" +
             "</tr>");
+    }
 }
