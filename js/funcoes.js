@@ -16,14 +16,20 @@ function teste(){
             "<tr>" +
                 "<td>"+ x[i].getAttribute("codigo") +"</td>" +
                 "<td><img src='imgs/"+ x[i].getElementsByTagName("imagem")[0].childNodes[0].nodeValue +"'width='150'></td>" +
-                "<td>"+ x[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue +"</td>" +
+                "<td><a href='postagem.html?codigo_postagem=" + i + "'>" + x[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue +"</a></td>" +
                 "<td>"+ x[i].getElementsByTagName("corpo")[0].childNodes[0].nodeValue.substr(0,150) +"...</td>" +
             "</tr>");
     }
 }
 
 function postagem(){
-i=0;
+    //Armazena a URL completa, ex: http://localhost:81/blog/postagem.html?codigo_postagem=2
+    url = new URL(window.location.href);
+    //Armazena o parâmetro, ex: codigo_postagem=2
+    parametro = url.searchParams;
+    //Armazena a id, ex: 2
+    i = parametro.get("codigo_postagem");
+
         document.write(
             "<tr>" +
                 "<td>"+ x[i].getAttribute("codigo") +"</td>" +
