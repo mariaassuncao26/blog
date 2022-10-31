@@ -10,4 +10,9 @@
         <corpo>Segunda notícia Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero odio iure, ea nulla accusantium quam. Modi cum labore odio nemo architecto. Deserunt aliquid tempora tenetur perspiciatis, consequuntur modi facilis illum fugiat quibusdam totam deleniti reiciendis, quae fugit repellat inventore aut culpa nesciunt laudantium possimus alias voluptas nulla? Tenetur, sapiente quis?</corpo>
         <imagem>mm.jpg</imagem>
     </postagem>
+    <postagem codigo="152">
+        <titulo>Notícia 3</titulo>
+        <corpo>Terceira notícia Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero odio iure, ea nulla accusantium quam. Modi cum labore odio nemo architecto. Deserunt aliquid tempora tenetur perspiciatis, consequuntur modi facilis illum fugiat quibusdam totam deleniti reiciendis, quae fugit repellat inventore aut culpa nesciunt laudantium possimus alias voluptas nulla? Tenetur, sapiente quis?</corpo>
+        <imagem>wolverine.jpg</imagem>
+    </postagem>
 </conteudo>

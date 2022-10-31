@@ -11,7 +11,7 @@ xmlDoc = xmlhttp.responseXML;
 x = xmlDoc.getElementsByTagName("postagem");
 
 function teste(){
-    i=1;
+    i=2;
         document.write(
             "<tr>" +
                 "<td>"+ x[i].getAttribute("codigo") +"</td>" +
