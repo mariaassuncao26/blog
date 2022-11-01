@@ -60,7 +60,7 @@ function teste(){
                 "<div>"+ x[i].getAttribute("codigo") +"</td>" +
                 "<div><img src='imgs/"+ x[i].getElementsByTagName("imagem")[0].childNodes[0].nodeValue +"'width='150'></div>" +
                 "<div><a href='postagem.html?codigo_postagem=" + i + "'>" + x[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue +"</a></div>" +
-                "<div>"+ x[i].getElementsByTagName("corpo")[0].childNodes[0].nodeValue.substr(0,150) +"...</div>" +
+                "<div>"+ x[i].getElementsByTagName("corpo")[0].childNodes[0].nodeValue.substr(0,50) +"...</div>" +
             "</div>");
     }
 }
