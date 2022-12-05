@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <conteudo>
-    <postagem codigo="150">
+    <postagem>
         <titulo>Notícia 1</titulo>
         <corpo>Primeira notícia Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero odio iure, ea nulla accusantium quam. Modi cum labore odio nemo architecto. Deserunt aliquid tempora tenetur perspiciatis, consequuntur modi facilis illum fugiat quibusdam totam deleniti reiciendis, quae fugit repellat inventore aut culpa nesciunt laudantium possimus alias voluptas nulla? Tenetur, sapiente quis?</corpo>
         <imagem>hulk.jpg</imagem>
     </postagem>
-    <postagem codigo="151">
+    <postagem>
         <titulo>Notícia 2</titulo>
         <corpo>Segunda notícia Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero odio iure, ea nulla accusantium quam. Modi cum labore odio nemo architecto. Deserunt aliquid tempora tenetur perspiciatis, consequuntur modi facilis illum fugiat quibusdam totam deleniti reiciendis, quae fugit repellat inventore aut culpa nesciunt laudantium possimus alias voluptas nulla? Tenetur, sapiente quis?</corpo>
         <imagem>mm.jpg</imagem>
     </postagem>
-    <postagem codigo="152">
+    <postagem>
         <titulo>Notícia 3</titulo>
         <corpo>Terceira notícia Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero odio iure, ea nulla accusantium quam. Modi cum labore odio nemo architecto. Deserunt aliquid tempora tenetur perspiciatis, consequuntur modi facilis illum fugiat quibusdam totam deleniti reiciendis, quae fugit repellat inventore aut culpa nesciunt laudantium possimus alias voluptas nulla? Tenetur, sapiente quis?</corpo>
         <imagem>wolverine.jpg</imagem>

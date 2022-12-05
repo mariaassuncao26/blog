@@ -1,3 +1,5 @@
 .c{
-    border: 1px;
+    width: 20%;
+    border: #000000 solid 1px;
+    background-color: #E4D2AD;
 }
