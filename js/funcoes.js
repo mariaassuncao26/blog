@@ -101,15 +101,21 @@ x = xmlDoc.getElementsByTagName("postagem");
 function teste(){
     for(i=x.length-1;i>=0;i--){
         document.write(
-            "<div class='card' style='width:400px'>" +
-                "<div>" + 
-                    "<img class='card-img-top' src='imgs/"+ x[i].getElementsByTagName("imagem")[0].childNodes[0].nodeValue +"'width='150'>" + 
-                "</div>" + 
+            "<div class='c card mt-5' style='width:400px'>" +
+                    "<div>" + 
+                        "<img class='card-img-top' src='imgs/"+ x[i].getElementsByTagName("imagem")[0].childNodes[0].nodeValue +"'width='150'>" + 
+                    "</div>" + 
                 "<div class='card-body'>" +
-                    "<h4 class='card-title'>" + x[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue + "</h4>" +
-                    "<p class='card-text'>"+ x[i].getElementsByTagName("corpo")[0].childNodes[0].nodeValue.substr(0,100) +"...</p>" +
-                    "<div class='btn'><a href='postagem.html?codigo_postagem=" + i + "'>" + x[i].getElementsByTagName("link")[0].childNodes[0].nodeValue +"</a></div>" +
-                 "</div>" +
+                    "<h4 class='card-title'>" + 
+                        x[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue + 
+                    "</h4>" +
+                    "<p class='card-text'>" +
+                        x[i].getElementsByTagName("corpo")[0].childNodes[0].nodeValue.substr(0,100) + 
+                    "...</p>" +
+                    "<div class='btn'>" +
+                        "<a href='postagem.html?codigo_postagem=" + i + "'>" + x[i].getElementsByTagName("link")[0].childNodes[0].nodeValue +"</a>" +
+                    "</div>" +
+                "</div>" +
             "</div>");
     }
 }
