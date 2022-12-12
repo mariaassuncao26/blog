@@ -136,7 +136,12 @@ function postagem(){
                         "<div class=''><img class='card-img-top' style='width:100%' alt='Card image' src='imgs/"+ x[i].getElementsByTagName("imagem")[0].childNodes[0].nodeValue +"'width='1000'></div>" +
                     "</div>" +
                 "</div>" +
-                        "<div class='corpop'>"+ x[i].getElementsByTagName("corpo")[0].childNodes[0].nodeValue + "</div>" +
+                "<div class='corpop'>" +
+                        "<p class=''>"+ x[i].getElementsByTagName("comentario")[0].childNodes[0].nodeValue + "</p>" +
+                        "<p class=''>"+ x[i].getElementsByTagName("p1")[0].childNodes[0].nodeValue + "</p>" +
+                        "<p class=''>"+ x[i].getElementsByTagName("p2")[0].childNodes[0].nodeValue + "</p>" +
+                        "<p class=''>"+ x[i].getElementsByTagName("p3")[0].childNodes[0].nodeValue + "</p>" +
+                "</div>" +
             "</div>");
     
 }
