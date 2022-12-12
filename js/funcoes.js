@@ -130,9 +130,13 @@ function postagem(){
 
         document.write(
             "<div>" +
-                "<div><img src='imgs/"+ x[i].getElementsByTagName("imagem")[0].childNodes[0].nodeValue +"'width='150'></div>" +
-                "<div>"+ x[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue +"</div>" +
-                "<div>"+ x[i].getElementsByTagName("corpo")[0].childNodes[0].nodeValue + "</div>" +
+                        "<div class='inika titulop'>"+ x[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue +"</div>" +
+                "<div class='container imagemp'>" +
+                    "<div class='card'>" +
+                        "<div class=''><img class='card-img-top' style='width:100%' alt='Card image' src='imgs/"+ x[i].getElementsByTagName("imagem")[0].childNodes[0].nodeValue +"'width='1000'></div>" +
+                    "</div>" +
+                "</div>" +
+                        "<div class='corpop'>"+ x[i].getElementsByTagName("corpo")[0].childNodes[0].nodeValue + "</div>" +
             "</div>");
     
 }

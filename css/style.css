@@ -3,3 +3,38 @@
     background-color: #E4D2AD;
     text-decoration: none;
 }
+
+body{
+    background-color: #F1E6D0;
+}
+
+.cima{
+    background-color: #AC8331;
+}
+
+.inika{
+    font-family: 'Inika';
+    font-style: normal;
+}
+
+.titulop{
+    width: 75%;
+    margin-top: 7%;
+    margin-left: 9%;
+    font-size: 7ch;
+}
+
+.imagemp{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.corpop{
+    margin-top: 6%;
+    width: 75%;
+}
+
+.footer{
+    background-color: #AC8331;
+}
