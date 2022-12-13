@@ -137,7 +137,7 @@ function postagem(){
                     "</div>" +
                 "</div>" +
                 "<div class='corpop'>" +
-                        "<i> <p class='comentario'>"+ x[i].getElementsByTagName("comentario")[0].childNodes[0].nodeValue + "</p> </i>" +
+                        "<i> <p class=''>"+ x[i].getElementsByTagName("comentario")[0].childNodes[0].nodeValue + "</p> </i>" +
                         "<p class=''>"+ x[i].getElementsByTagName("p1")[0].childNodes[0].nodeValue + "</p>" +
                         "<p class=''>"+ x[i].getElementsByTagName("p2")[0].childNodes[0].nodeValue + "</p>" +
                         "<p class=''>"+ x[i].getElementsByTagName("p3")[0].childNodes[0].nodeValue + "</p>" +
